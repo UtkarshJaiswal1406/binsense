@@ -1,192 +1,191 @@
 /* Container for the entire page */
 .container {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #1a1a1a; /* Dark background for the page */
-    color: #e0e0e0; /* Light gray text for contrast */
-  }
-  
-  /* Hero Section Styles */
-  .heroSection {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px 20px;
-    background-color: #1f1f1f; /* Darker background for hero section */
-    color: #ffffff; /* White text */
-    border-bottom: 5px solid #333; /* Subtle border */
-  }
-  
-  .heroText {
-    flex: 1;
-    max-width: 50%;
-  }
-  
-  .heroTitle {
-    font-size: 3rem;
-    font-weight: bold;
-    margin-bottom: 20px;
-    color: #fff; /* Ensure the title is bright */
-  }
-  
-  .heroSubtitle {
-    font-size: 1.25rem;
-    margin-bottom: 30px;
-    color: #ccc; /* Lighter gray for subtitle */
-  }
-  
-  .heroImage {
-    flex: 1;
-    max-width: 45%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .heroImage img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px; /* Soft rounded corners */
-  }
-  
-  /* Features Section Styles */
-  .featuresSection {
-    padding: 50px 20px;
-    background-color: #2a2a2a; /* Dark background for features */
-    text-align: center;
-  }
-  
-  .featuresTitle {
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin-bottom: 40px;
-    color: #ffffff;
-  }
-  
-  .featureCards {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-  }
-  
-  .featureCard {
-    background-color: #333333; /* Dark gray background for cards */
-    padding: 20px;
-    margin: 15px;
-    width: 300px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    text-align: left;
-    transition: all 0.3s ease-in-out; /* Smooth hover effect */
-    border: 2px solid transparent;
-    position: relative;
-  }
-  
-  /* Hover effects with blue accent */
-  .featureCard:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4); /* Enhanced shadow on hover */
-    border-color: #4e93f0; /* Blue border on hover */
-  }
-  
-  .featureCard:hover::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(45deg, rgba(78, 147, 240, 0.3), rgba(78, 147, 240, 0.8));
-    border-radius: 10px;
-    z-index: -1;
-  }
-  
-  .featureTitle {
-    font-size: 1.75rem;
-    margin-bottom: 15px;
-    color: #fff;
-  }
-  
-  .featureCard p {
-    font-size: 1rem;
-    color: #dcdcdc; /* Lighter gray text */
-  }
-  
-  /* Benefits Section Styles */
-  .benefitsSection {
-    padding: 50px 20px;
-    background-color: #252525; /* Darker background for benefits */
-    text-align: center;
-  }
-  
-  .benefitsTitle {
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin-bottom: 40px;
-    color: #ffffff;
-  }
-  
-  .benefitsCards {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-  }
-  
-  .benefitCard {
-    background-color: #333333; /* Dark gray background for cards */
-    padding: 20px;
-    margin: 15px;
-    width: 300px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    text-align: left;
-    transition: all 0.3s ease-in-out;
-    border: 2px solid transparent;
-    position: relative;
-  }
-  
-  /* Hover effects with blue accent */
-  .benefitCard:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4); /* Enhanced shadow on hover */
-    border-color: #4e93f0; /* Blue border on hover */
-  }
-  
-  .benefitCard:hover::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(45deg, rgba(78, 147, 240, 0.3), rgba(78, 147, 240, 0.8));
-    border-radius: 10px;
-    z-index: -1;
-  }
-  
-  .benefitTitle {
-    font-size: 1.75rem;
-    margin-bottom: 15px;
-    color: #ffffff;
-  }
-  
-  .benefitCard p {
-    font-size: 1rem;
-    color: #dcdcdc; /* Lighter gray text */
-  }
-  
-  /* Footer Section Styles */
-  .footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #222222; /* Dark background for footer */
-    color: #888; /* Subtle text color */
-    margin-top: 40px;
-  }
-  
-  .footer p {
-    margin: 0;
-    font-size: 1rem;
-  }
-  
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1a1a1a; /* Dark background for the page */
+  color: #e0e0e0; /* Light gray text for contrast */
+}
+
+/* Hero Section Styles */
+.heroSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 20px;
+  background-color: #1f1f1f; /* Darker background for hero section */
+  color: #ffffff; /* White text */
+  border-bottom: 5px solid #333; /* Subtle border */
+}
+
+.heroText {
+  flex: 1;
+  max-width: 50%;
+}
+
+.heroTitle {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #fff; /* Ensure the title is bright */
+}
+
+.heroSubtitle {
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+  color: #ccc; /* Lighter gray for subtitle */
+}
+
+.heroImage {
+  flex: 1;
+  max-width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroImage img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px; /* Soft rounded corners */
+}
+
+/* Features Section Styles */
+.featuresSection {
+  padding: 50px 20px;
+  background-color: #2a2a2a; /* Dark background for features */
+  text-align: center;
+}
+
+.featuresTitle {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #ffffff;
+}
+
+.featureCards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.featureCard {
+  background-color: #333333; /* Dark gray background for cards */
+  padding: 20px;
+  margin: 15px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  text-align: left;
+  transition: all 0.3s ease-in-out; /* Smooth hover effect */
+  border: 2px solid transparent;
+  position: relative;
+}
+
+/* Hover effects with blue accent */
+.featureCard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4); /* Enhanced shadow on hover */
+  border-color: #4e93f0; /* Blue border on hover */
+}
+
+.featureCard:hover::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, rgba(78, 147, 240, 0.3), rgba(78, 147, 240, 0.8));
+  border-radius: 10px;
+  z-index: -1;
+}
+
+.featureTitle {
+  font-size: 1.75rem;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.featureCard p {
+  font-size: 1rem;
+  color: #dcdcdc; /* Lighter gray text */
+}
+
+/* Benefits Section Styles */
+.benefitsSection {
+  padding: 50px 20px;
+  background-color: #252525; /* Darker background for benefits */
+  text-align: center;
+}
+
+.benefitsTitle {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #ffffff;
+}
+
+.benefitsCards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.benefitCard {
+  background-color: #333333; /* Dark gray background for cards */
+  padding: 20px;
+  margin: 15px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  text-align: left;
+  transition: all 0.3s ease-in-out;
+  border: 2px solid transparent;
+  position: relative;
+}
+
+/* Hover effects with blue accent */
+.benefitCard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4); /* Enhanced shadow on hover */
+  border-color: #4e93f0; /* Blue border on hover */
+}
+
+.benefitCard:hover::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, rgba(78, 147, 240, 0.3), rgba(78, 147, 240, 0.8));
+  border-radius: 10px;
+  z-index: -1;
+}
+
+.benefitTitle {
+  font-size: 1.75rem;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.benefitCard p {
+  font-size: 1rem;
+  color: #dcdcdc; /* Lighter gray text */
+}
+
+/* Footer Section Styles */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #222222; /* Dark background for footer */
+  color: #888; /* Subtle text color */
+  margin-top: 40px;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 1rem;
+}

@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import styles from '../styles/Dashboard.module.css';
 import { motion } from 'framer-motion';
+import Navbar from '../components/Navbar';
+
 
 const demoDustbins = [
   { id: 1, location: "Arch Gate", fillPercentage: 45 },
@@ -17,6 +19,8 @@ const Dashboard = () => {
   };
 
   return (
+    <>
+    <Navbar />
     <div className={styles.dashboardContainer}>
       <header className={styles.header}>
         <h1>Binsense Analytics Dashboard</h1>
@@ -59,6 +63,7 @@ const Dashboard = () => {
         </motion.section>
       )}
     </div>
+    </>
   );
 };
 
