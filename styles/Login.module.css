@@ -1,0 +1,117 @@
+/* Login.module.css */
+.container {
+    font-family: 'Arial', sans-serif;
+    padding: 0 20px;
+    background-color: #121212;
+    color: #fff;
+    min-height: 100vh;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1f1f1f;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .navLinks {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+  }
+  
+  .navLinks li {
+    cursor: pointer;
+  }
+  
+  .loginButton {
+    background-color: #4078c0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .loginContent {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .loginContent h2 {
+    font-size: 32px;
+  }
+  
+  .githubLoginButton {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .loggedInContent {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .userProfile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+  }
+  
+  .profilePic {
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .profileButton {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .dropdownMenu {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background-color: #333;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    display: none;
+    padding: 10px;
+  }
+  
+  .profileButton:hover + .dropdownMenu,
+  .dropdownMenu:hover {
+    display: block;
+  }
+  
+  .dropdownMenu a,
+  .dropdownMenu button {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+  }
+  
+  .dropdownMenu button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdownMenu a:hover,
+  .dropdownMenu button:hover {
+    background-color: #444;
+  }
+  
