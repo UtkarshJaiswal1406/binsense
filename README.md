@@ -25,5 +25,5 @@ Binsense is a smart garbage disposal system that helps optimize waste management
 
 2. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/binsense.git
+   git clone https://github.com/UtkarshJaiswal406/binsense.git
    cd binsense
